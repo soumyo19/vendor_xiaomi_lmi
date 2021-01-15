@@ -419,20 +419,6 @@ dex_import {
 }
 
 dex_import {
-	name: "qti-telephony-hidl-wrapper",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/qti-telephony-hidl-wrapper.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-utils",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/qti-telephony-utils.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "remotesimlockmanagerlibrary",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/remotesimlockmanagerlibrary.jar"],
